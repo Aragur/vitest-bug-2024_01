@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.app.json",
+  "exclude": ["**/*.spec.ts"],
+  "compilerOptions": {
+    "target": "es2017",
+    "composite": true,
+    "lib": [],
+    "types": ["node", "happy-dom"]
+  }
+}
